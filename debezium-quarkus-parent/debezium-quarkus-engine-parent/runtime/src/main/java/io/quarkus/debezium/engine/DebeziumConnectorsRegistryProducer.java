@@ -20,6 +20,7 @@ import io.debezium.runtime.DebeziumConnectorRegistry;
 import io.debezium.runtime.DebeziumConnectorsRegistry;
 import io.debezium.runtime.EngineManifest;
 
+// CI baseline: upstream main without debezium/dbz#2801 (scratch, do not merge)
 public class DebeziumConnectorsRegistryProducer {
     private final Instance<DebeziumConnectorRegistry> registryInstances;
 
